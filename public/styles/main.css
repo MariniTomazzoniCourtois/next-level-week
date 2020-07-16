@@ -1,0 +1,33 @@
+/* .red{ // ponto é a referência para uma classe. red é o nome da classe
+  background-color: red; 
+}*/
+
+:root { /*está referenciando a raiz do documento, onde são colocados propriedades que poderão ser repetidas em formato de variáveis. Quando quiser mudar essa cor, não precisará ir em cada lugar que aparece a cor, vem direto aqui*/
+  --title-color: #322153;
+  --primary-color: #34cb79;
+}
+
+* { /*referencia todos os seletores*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased; /*a fonte fica mais gostosa de se ver */
+}
+
+a { 
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ubuntu, sans-serif;
+  color: var(--title-color);
+}
+
